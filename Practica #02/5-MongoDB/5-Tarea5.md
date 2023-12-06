@@ -41,16 +41,16 @@ En este ejemplo:
 
 2. **Crear el contenedor de pgAdmin 4:**
 
-- `docker run -d --name cliente-pgadmin -e PGADMIN_DEFAULT_EMAIL=admin@example.com -e PGADMIN_DEFAULT_PASSWORD=root -p 5050:80 dpage/pgadmin4`
+- `docker run -d --name cliente-pgadmin -e PGADMIN_DEFAULT_EMAIL=gary.campana@epn.edu.ec -e PGADMIN_DEFAULT_PASSWORD=root -p 5050:80 dpage/pgadmin4`
 
 En este ejemplo:
 
 - `-d`: Ejecuta el contenedor en segundo plano.
 - `--name mi-pgadmin-container`: Asigna un nombre al contenedor de pgAdmin 4.
-- `-e PGADMIN_DEFAULT_EMAIL=admin@example.com -e PGADMIN_DEFAULT_PASSWORD=admin`: Configura el correo electrónico y la contraseña del usuario por defecto de pgAdmin 4.
+- `-e PGADMIN_DEFAULT_EMAIL=gary.campana@epn.edu.ec -e PGADMIN_DEFAULT_PASSWORD=root`: Configura el correo electrónico y la contraseña del usuario por defecto de pgAdmin 4.
 - `-p 5050:80`: Expone el puerto 5050 del host para acceder a pgAdmin 4.
 
-3. **Configurar pgAdmin 4 para conectarse a PostgreSQL:**
+1. **Configurar pgAdmin 4 para conectarse a PostgreSQL:**
 
 - Accede a pgAdmin 4 a través de tu navegador utilizando http://localhost:5050.
 - Ingresa las credenciales que configuraste para el usuario por defecto.
